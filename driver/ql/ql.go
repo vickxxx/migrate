@@ -3,9 +3,9 @@ package ql
 import (
 	"database/sql"
 
-	"github.com/mattes/migrate/driver"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate/direction"
+	"github.com/vickxxx/migrate/driver"
+	"github.com/vickxxx/migrate/file"
+	"github.com/vickxxx/migrate/migrate/direction"
 
 	"fmt"
 	"strings"
