@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"reflect"
 
-	"github.com/mattes/migrate/database"
+	"github.com/vickxxx/migrate/database"
 )
 
 func init() {

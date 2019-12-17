@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/mattes/migrate"
-	"github.com/mattes/migrate/database"
+	"github.com/vickxxx/migrate"
+	"github.com/vickxxx/migrate/database"
 )
 
 func init() {

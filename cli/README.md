@@ -5,8 +5,8 @@
 #### With Go toolchain
 
 ```
-$ go get -u -d github.com/mattes/migrate/cli github.com/lib/pq
-$ go build -tags 'postgres' -o /usr/local/bin/migrate github.com/mattes/migrate/cli
+$ go get -u -d github.com/vickxxx/migrate/cli github.com/lib/pq
+$ go build -tags 'postgres' -o /usr/local/bin/migrate github.com/vickxxx/migrate/cli
 ```
 
 Note: This example builds the cli which will only work with postgres.  In order
@@ -17,7 +17,7 @@ correspond to the names of the sub-packages underneath the
 
 #### MacOS
 
-([todo #156](https://github.com/mattes/migrate/issues/156))
+([todo #156](https://github.com/vickxxx/migrate/issues/156))
 
 ```
 $ brew install migrate --with-postgres
@@ -34,10 +34,10 @@ $ apt-get install -y migrate
 
 #### Download pre-build binary (Windows, MacOS, or Linux)
 
-[Release Downloads](https://github.com/mattes/migrate/releases)
+[Release Downloads](https://github.com/vickxxx/migrate/releases)
 
 ```
-$ curl -L https://github.com/mattes/migrate/releases/download/$version/migrate.$platform-amd64.tar.gz | tar xvz
+$ curl -L https://github.com/vickxxx/migrate/releases/download/$version/migrate.$platform-amd64.tar.gz | tar xvz
 ```
 
 

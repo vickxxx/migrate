@@ -3,5 +3,5 @@
 package main
 
 import (
-	_ "github.com/mattes/migrate/source/go-bindata"
+	_ "github.com/vickxxx/migrate/source/go-bindata"
 )

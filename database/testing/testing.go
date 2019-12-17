@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattes/migrate/database"
+	"github.com/vickxxx/migrate/database"
 )
 
 // Test runs tests against database implementations.

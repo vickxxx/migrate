@@ -26,9 +26,9 @@ import (
     "database/sql"
     
     _ "github.com/go-sql-driver/mysql"
-    "github.com/mattes/migrate"
-    "github.com/mattes/migrate/database/mysql"
-    _ "github.com/mattes/migrate/source/file"
+    "github.com/vickxxx/migrate"
+    "github.com/vickxxx/migrate/database/mysql"
+    _ "github.com/vickxxx/migrate/source/file"
 )
 
 func main() {
