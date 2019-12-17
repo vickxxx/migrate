@@ -90,7 +90,7 @@ func (m *Mysql) Open(url string) (database.Driver, error) {
 	purl.RawQuery = q.Encode()
 
 	db, err := sql.Open("mysql", strings.Replace(
-		migrate.FilterCustomQuery(purl).String(), "mysql://", "", 1))
+		url, "mysql://", "", 1))
 	if err != nil {
 		return nil, err
 	}
