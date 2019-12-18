@@ -4,6 +4,7 @@ package driver
 import (
 	"fmt"
 	neturl "net/url" // alias to allow `url string` func signature in New
+	"strings"
 
 	"github.com/vickxxx/migrate/file"
 )
@@ -38,7 +39,12 @@ type Driver interface {
 func New(url string) (Driver, error) {
 	u, err := neturl.Parse(url)
 	if err != nil {
-		return nil, err
+		u = &neturl.URL{}
+		if strings.HasPrefix(url, "mysql") {
+			u.Scheme = "mysql"
+		} else {
+			return nil, err
+		}
 	}
 
 	d := GetDriver(u.Scheme)
